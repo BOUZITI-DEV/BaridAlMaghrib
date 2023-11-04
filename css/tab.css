@@ -1,0 +1,43 @@
+.tab
+{
+    border-collapse: collapse;
+    font-family: sans-serif;
+    display: block;
+    height: 82%;
+    width: auto;
+    overflow: scroll;
+    background-color: darkgray;
+}
+.tab td, .tab th
+{
+    padding: 10px;
+    border: 1px solid black;
+}
+.tab tr:hover 
+{
+    background-color: lightcyan;
+} 
+.tab th
+{
+    background: #5271aa;
+    color: azure;
+}
+.tab.sticky th
+{
+    position: sticky;
+    top: 0px;
+}
+.tab tr
+{
+    background-color: whitesmoke;
+}
+#download_bt
+{
+    width: 200px;
+    float: right; 
+}
+select
+{
+    width: 280px;
+    font-size: 16px;
+}
